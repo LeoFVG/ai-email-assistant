@@ -1,5 +1,5 @@
 # Email-Handling-Project
-My project for handling, categorising and responding to emails (woriking on integrating AI to read and handle emails).
+My project Anthropic API project for tool use. Make claude read and write emails for you!
 
 ## Table of Contents
 
