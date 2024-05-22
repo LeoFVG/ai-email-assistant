@@ -22,13 +22,13 @@ Follow these steps to install the project on a Windows machine:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/LeoFVG/anthropic-email-assistant.git
-    cd anthropic-email-assistant
+    git clone https://github.com/LeoFVG/ai-email-assistant.git
+    cd ai-email-assistant
     ```
 2. Create a conda environment (optional):
     ```bash
-    conda create -n anthropic-email-assistant python=3.12
-    conda activate anthropic-email-assistant
+    conda create -n ai-email-assistant python=3.12
+    conda activate ai-email-assistant
     ```
 4. Install requirements:
     ```bash
@@ -62,4 +62,4 @@ This system is available under the MIT license.
 ## Contact
 
 Leo Voghera - leovoghera@hotmail.com
-Project Link: https://github.com/LeoFVG/anthropic-email-assistant.git
+Project Link: https://github.com/LeoFVG/ai-email-assistant.git
