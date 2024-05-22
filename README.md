@@ -28,6 +28,7 @@ Follow these steps to install the project on a Windows machine:
 2. Create a conda environment (optional):
     ```bash
     conda create -n anthropic-email-assistant python=3.12
+    conda activate anthropic-email-assistant
     ```
 4. Install requirements:
     ```bash
