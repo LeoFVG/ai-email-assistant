@@ -41,10 +41,10 @@ Follow these steps to install the project on a Windows machine:
     ```
 
 ## Usage
-When the main function is run you will be prompted to login to your email, if you are using gmail you need to manually activate imap support in your gmail settings for the bot to properly be able to read your emails.
-The bot has the ability to read an email when given a specified increment (e.g "Read my 10th most recent email.").
-The bot has the ability to send an email (e.g. Send an email about Minecraft to example-email@example.com).
-It currently has no chat memory and i am currently working on an open source local version using ollama that will be more developed.
+- When the main function is run you will be prompted to login to your email, if you are using gmail you need to manually activate imap support in your gmail settings for the bot to properly be able to read your emails.
+- The bot has the ability to read an email when given a specified increment (e.g "Read my 10th most recent email.").
+- The bot has the ability to send an email (e.g. Send an email about Minecraft to example-email@example.com).
+- It currently has no chat memory and i am currently working on an open source local version using ollama that will have a lot more features.
 
 ## Contributing
 
