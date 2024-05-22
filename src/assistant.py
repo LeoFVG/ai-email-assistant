@@ -96,7 +96,12 @@ class EmailAssistant:
         if tool_name == "read_mail":
             return self._read_mail(increment=tool_input["increment"])
         if tool_name == "send_mail":
-            return self.email_client.send_mail(to_address=tool_input["reciever"], subject=tool_input["subject"], message=tool_input["message"])
+            try:
+                print("Sending mail...")
+                return self.email_client.send_mail(to_address=tool_input["reciever"], subject=tool_input["subject"], message=tool_input["message"])
+            except Exception as e:
+                logging.error(f"Failed to send mail: {e}")
+                raise e
         
     def _read_mail(self, increment: int) -> str:
         try:
