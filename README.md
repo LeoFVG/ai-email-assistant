@@ -22,8 +22,8 @@ Follow these steps to install the project on a Windows machine:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/LeoFVG/Email-Handling-Project.git
-    cd Email-Handling-Project
+    git clone https://github.com/LeoFVG/anthropic-email-assistant.git
+    cd anthropic-email-assistant
     ```
 2. Install requirements:
     ```bash
@@ -36,7 +36,9 @@ Follow these steps to install the project on a Windows machine:
     ```
 
 ## Usage
--
+The bot has the ability to read an email when given a specified increment (e.g "Read my 10th most recent email.").
+The bot has the ability to send an email (e.g. Send an email about Minecraft to example-email@example.com).
+It currently has no chat memory and i am currently working on an open source local version using ollama that will be more developed.
 
 ## Contributing
 
@@ -55,4 +57,4 @@ This system is available under the MIT license.
 ## Contact
 
 Leo Voghera - leovoghera@hotmail.com
-Project Link: https://github.com/LeoFVG/Email-Handling-Project.git
+Project Link: https://github.com/LeoFVG/anthropic-email-assistant.git
