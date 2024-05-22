@@ -25,12 +25,16 @@ Follow these steps to install the project on a Windows machine:
     git clone https://github.com/LeoFVG/anthropic-email-assistant.git
     cd anthropic-email-assistant
     ```
-2. Install requirements:
+2. Create a conda environment (optional):
+    ```bash
+    conda create -n anthropic-email-assistant python=3.12
+    ```
+4. Install requirements:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Run the main.py file:
+4. Run the main.py file:
     ```bash
     python main.py
     ```
