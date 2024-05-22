@@ -35,7 +35,7 @@ Follow these steps to install the project on a Windows machine:
     pip install -r requirements.txt
     ```
 
-4. Run the main.py file:
+4. Run the main.py file (make sure a proper api key is set in the main.py file):
     ```bash
     python main.py
     ```
