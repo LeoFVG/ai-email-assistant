@@ -1,5 +1,5 @@
 # Email-Handling-Project
-My project Anthropic API project for tool use. Make claude read and write emails for you!
+My Anthropic API project for tool use. Make claude read and write emails for you!
 
 ## Table of Contents
 
