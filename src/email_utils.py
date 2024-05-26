@@ -153,9 +153,6 @@ class EmailClient:
             self.username = input('Username: ')
             self.password = getpass('Password: ')
 
-        #self.imap = 'imap.' + self.username.split('@')[1]
-        #if self.imap == "imap.hotmail.com":
-        #    self.imap = "imap.outlook.com"
         self._get_server("imap", self.username)
 
         try:
